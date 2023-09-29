@@ -76,7 +76,7 @@ services:
       # The chain configuration file used for setting up Prysm
       - --chain-config-file=/consensus/config.yml
       # We specify the chain id used by our execution client
-      - --chain-id=${CHAIN_ID:-32382}
+      - --chain-id=${CHAIN_ID:-32303}
       - --rpc-host=0.0.0.0
       - --contract-deployment-block=0
       - --grpc-gateway-host=0.0.0.0
